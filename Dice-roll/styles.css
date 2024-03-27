@@ -1,0 +1,31 @@
+body{
+    font-family: sans-serif;
+}
+
+#btnContainer{
+    display:block;
+    text-align: center;
+}
+
+#rollBtn{
+    font-size: 1.5em;
+    padding: 10px 20px;
+    color: rgb(40, 227, 227);
+    background-color: rgb(16, 154, 154);
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.25s, color 0.25s;
+}
+
+#rollBtn:hover{
+    background-color: rgb(40, 227, 227);
+    color: rgb(16, 154, 154);
+}
+
+.labels{
+    font-size: 1.5em;
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
